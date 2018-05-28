@@ -4,7 +4,7 @@ class UserDetails extends Component {
 
     render() {
         return (
-            <div>User details!</div>
+            <div className="container">User details!</div>
         );
     }
 
