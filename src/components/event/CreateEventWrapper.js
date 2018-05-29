@@ -1,14 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import CreateEventShort from "./CreateEventShort";
 
-class CreateEventWrapper extends Component {
-    render() {
-        return (
-            <div>
-                <CreateEventShort/>
-            </div>
-        );
-    }
+const CreateEventWrapper = () => {
+    return (
+        <div>
+            <CreateEventShort/>
+        </div>
+    );
 }
 
 export default CreateEventWrapper;

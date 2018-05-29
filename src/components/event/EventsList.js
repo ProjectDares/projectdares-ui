@@ -4,7 +4,7 @@ import Event from "./Event";
 
 const EventsList = ({events}) => {
     return (
-        <div className="card-group list-group">
+        <div className="flex-row container border flex-fill">
             {events.map(event =>
                 <Event key={event.id} type={event.type} name={event.name} info={event.info}/>
             )}

@@ -1,6 +1,7 @@
 import React from 'react';
-import UserDetails from "./UserDetails";
+import UserDetails from "./user/UserDetails";
 import EventsList from "./event/EventsList";
+import Header from "./common/Header"
 
 const App = () => {
 
@@ -9,12 +10,15 @@ const App = () => {
         {id: 2, type: 'Basketball', name: 'Street fight', info: 'Mar 28, 18:30, Miami'}
     ]
     return (
-        <div className="jumbotron">
-            <div className="d-flex flex-row justify-content-lg-center">
-                <div className="p-10 align-self-start"><UserDetails/></div>
-                <div className="align-self-lg-stretch col-md-6">
-                    <EventsList events={events}/>
-                </div>
+        <div>
+            <Header />
+            <div className="jumbotron">
+                {/*<div className="d-flex flex-row justify-content-lg-center">*/}
+                    {/*<div className="p-10 align-self-start"><UserDetails/></div>*/}
+                    {/*<div className="align-self-lg-stretch col-md-6">*/}
+                        {/*<EventsList events={events}/>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
             </div>
         </div>
     );

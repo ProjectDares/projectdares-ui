@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const Event = ({type, name, info}) => {
     return (
-        <div className="border-bottom card">
-            <div className="card-header">{type}</div>
+        <div className="border-bottom">
+            <div className="h4">{type}</div>
             <div className="card-title">{name}</div>
             <div className="card-subtitle">{info}</div>
         </div>

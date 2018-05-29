@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class CreateEventShort extends Component {
-    render() {
-        return (
-            <div>
-                <input/>
-            </div>
-        );
-    }
+const CreateEventShort = () => {
+    return (
+        <div>
+            <input/>
+        </div>
+    );
 }
 
 export default CreateEventShort;
