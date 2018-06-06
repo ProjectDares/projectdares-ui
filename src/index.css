@@ -1,4 +1,12 @@
-body {
+:root {
+  --color-dark: #1e1f27;
+  --color-darl-blue: #293655;
+  --color-blue: #4d648d;
+  --color-light-blue: #d1e1f9;
+  --color-white: #ffffff;
+}
+
+html, body, #root, .content {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -7,6 +15,31 @@ body {
   height: 100%;
 }
 
+.jumbotron {
+  background-color: var(--color-white);
+}
+
+.events-list {
+  background-color: var(--color-light-blue);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 100vh;
+}
+
+.main-container {
+  padding-top: 15px;
+}
+
 .search-input {
   border-radius: 25px !important;
+}
+
+.dares-header {
+  background-color: var(--color-blue);
+  margin-right: 0;
+}
+
+.dares-logo {
+  width: 25px;
+  height: 25px;
 }
