@@ -13,14 +13,11 @@ html, body, #root, .content {
   min-height: 100%;
   max-height: 100%;
   height: 100%;
-}
-
-.jumbotron {
-  background-color: var(--color-white);
+  background: lightgrey;
 }
 
 .events-list {
-  background-color: var(--color-light-blue);
+  background-color: var(--color-white);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   height: 100vh;
@@ -35,7 +32,7 @@ html, body, #root, .content {
 }
 
 .dares-header {
-  background-color: var(--color-blue);
+  background-color: var(--color-light-blue);
   margin-right: 0;
 }
 
