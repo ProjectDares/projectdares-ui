@@ -4,6 +4,7 @@
   --color-blue: #4d648d;
   --color-light-blue: #d1e1f9;
   --color-white: #ffffff;
+  --color-background: #e6ecf0;
 }
 
 html, body, #root, .content {
@@ -13,30 +14,42 @@ html, body, #root, .content {
   min-height: 100%;
   max-height: 100%;
   height: 100%;
-  background: lightgrey;
+  background: var(--color-background);
 }
 
 .events-list {
   background-color: var(--color-white);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  height: 100vh;
 }
 
 .main-container {
   padding-top: 15px;
 }
 
-.search-input {
-  border-radius: 25px !important;
-}
-
 .dares-header {
   background-color: var(--color-light-blue);
   margin-right: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
 .dares-logo {
   width: 25px;
   height: 25px;
+}
+
+
+/*Search Bar*/
+.search-btn {
+  position: absolute;
+  right: 3px;
+}
+
+.search-btn button {
+  background: transparent;
+}
+
+.search-input {
+  border-radius: 25px !important;
+  padding-right: 40px;
 }
